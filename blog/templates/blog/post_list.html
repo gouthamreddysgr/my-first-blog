@@ -1,11 +1,17 @@
 <html>
 <body>
-<div>
+<div align='center'>
 <h1>Welcome to my first project</h1>
-<a href="https://www.gouthamreddy.pythonanywhere.com/admin">Blog</a>
 </div>
+<h1><a href="/">Blog</a></h1>
 
-
+{% for post in posts %}
+   <div>
+     <p>published  :  {{ post.published_date }}</p>
+     <h1><a href="">{{ post.title }}</a></h1>
+     <p>{{ post.text|linebreaksbr }}</p>
+   </div>
+{% endfor %}
 
 </body>
 </html>
