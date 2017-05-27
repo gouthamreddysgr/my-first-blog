@@ -26,7 +26,7 @@ SECRET_KEY = '_k6mggzo&-^#o_-s*l5%v6bwiug8%%#ltr5x^a#ixqom(mrrv#'
 DEBUG = True
 
 <<<<<<< Updated upstream
-ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','gouthamreddy.pythonanywhere.com']
 =======
 ALLOWED_HOSTS = ['127.0.0.1','gouthamreddy.pythonanywhere.com']
 >>>>>>> Stashed changes
